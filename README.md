@@ -64,6 +64,10 @@ Faz o envio do repositorio ao GitHub<br>
 git push -u origin main
 ``
 
+Atualiza o Repositório Local<br>
+``
+git pull
+``
 
 
 
