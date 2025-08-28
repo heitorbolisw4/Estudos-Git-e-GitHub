@@ -16,30 +16,53 @@ Repositórios para armazenar resumos sobre Git e GitHub
 
 
 
-| Códigos | Função |
+## Comandos estudados até agora
 
-|---------|--------|
+Criar nova pasta<br>
+``
+mkdir
+``
 
-mkdir| criar nova pasta
+navegação pelo terminal<br>
+``
+cd
+``
 
-cd| navegação pelo terminal
+exibir conteúdo do arquivo referenciado<br>
+``
+cat reference
+``
 
-cat reference|exibir conteúdo do arquivo referenciado
+transforma em um repositório git criando uma pasta oculta<br>
+``
+.git init
+``
 
-.git init|transforma em um repositório git criando uma pasta oculta
-
-echo|cria um arquivo de qualquer extensão (ex.: .py, .html, .md, etc...)
-
-git add . e git commit -m | adiciona o commit
-
-git remote add origin| faz a conexão à um repositorio do GitHub
-
-git push -u origin main| Faz o envio do repositorio ao GitHub
-
-git remote -v| mostra os diretórios remotos vinculados
-
+adicionar commit<br>
+``
+git commit - m
+``
 
 
+cria um arquivo de qualquer extensão (ex.: .py, .html, .md, etc...)<br>
+``
+echo
+``
+
+Faz conexão ao repositorio do GitHub<br>
+``
+git remote add origin
+``
+
+mostra os diretórios remotos vinculados<br>
+``
+git remote -v
+``
+
+Faz o envio do repositorio ao GitHub<br>
+``
+git push -u origin main
+``
 
 
 
