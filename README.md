@@ -23,6 +23,31 @@ Criar nova pasta<br>
 mkdir
 ``
 
+Lista o conteúdo do diretório atual (arquivos e pastas).<br>
+``
+ls
+``
+
+Lista o conteúdo, incluindo arquivos ocultos<br>
+``
+ls -la
+``
+
+Mostra o caminho completo (Path) do diretório de trabalho atual.<br>
+``
+pwd
+``
+
+Remove (deleta) o arquivo.<br>
+``
+rm [nome_do_arquivo]
+``
+
+Remove uma pasta e todo o seu conteúdo (recursivamente).<br>
+``
+rm -r [nome_da_pasta]
+``
+
 navegação pelo terminal<br>
 ``
 cd
@@ -38,9 +63,14 @@ transforma em um repositório git criando uma pasta oculta<br>
 .git init
 ``
 
+Adiciona TODOS os arquivos modificados ou novos ao staging area (prontos para o próximo commit).<br>
+``
+git add .
+``
+
 adicionar commit<br>
 ``
-git commit - m
+git commit -m
 ``
 
 
